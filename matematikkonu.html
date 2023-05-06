@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matematik Projesi</title>
+    <link rel="stylesheet" href="css/matematik.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <ul>
+                <li><a href="matematik.html">Anasayfa</a></li>
+                <li><a href="matematiktarihi.html">Matematik Tarihi</a></li>
+                <li><a href="matematiktesti.html">Matematik Testi</a></li>
+                <li><a href="matematikkonu.html">Matematik Konuları</a></li>
+            </ul>
+        </div>
+        <div class="menu-container">
+            <div class="menu-card">
+                <div class="menu-content">
+                    <div class="button1">
+                        <div class="dropdown">
+                            <button class="btn" onclick="btnmantik()"><h3>Mantık</h3></button>
+                        </div>
+                    </div>
+                    <div class="button2">
+                        <div class="dropdown">
+                            <button class="btn" onclick="btnkumeler()"><h3>Kümeler</h3></button>
+                        </div>
+                    </div>
+                    <div class="button3">
+                        <div class="dropdown">
+                            <button class="btn" onclick="btndenklemler()"><h3>Denklem ve Eşitsizlikler</h3></button>
+                        </div>
+                    </div>
+                    <div class="button4">
+                        <div class="dropdown">
+                            <button class="btn" onclick="btnucgenler()"><h3>Üçgenler</h3></button>
+                        </div>
+                    </div>
+                    <div class="button5">
+                        <div class="dropdown">
+                            <button class="btn" onclick="btnveri()"><h3>Veri</h3></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="btnmantik" id="mantik">
+                    <div>
+                        <a id="btnders1" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=237&k=2741" target="blank_"><button class="btn1">Bileşik Önermeler</button></a>
+                        <a id="btnders2" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=237&k=2742" target="blank_"><button class="btn1">Koşullu ve iki yönlü koşullu önermeler</button></a>
+                        <a id="btnders3" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=237&k=2740" target="blank_"><button class="btn1">Önermeler</button></a>
+                    </div>    
+                </div>
+                <div class="btnkume" id="kumeler">
+                    <div>
+                        <a id="btnders1" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=238&k=2745" target="blank_"><button class="btn1">Kümelerde temel kavramlar</button></a>
+                        <a id="btnders2" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=238&k=2748" target="blank_"><button class="btn1">Kümelerde işlemler</button></a>
+                        <a id="btnders3" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=238&k=2749" target="blank_"><button class="btn1">Kartezyen çarpım</button></a>
+                    </div>    
+                </div>
+                <div class="btndenklemler" id="denklemler">
+                    <div>
+                        <a id="btn1ders1" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=239&k=2750" target="blank_"><button class="btn1">Sayı Kümeleri</button></a>
+                        <a id="btn1ders2" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=239&k=2751" target="blank_"><button class="btn1">Gerçek sayılar kümesinde aralık kavramı</button></a>
+                        <a id="btn1ders3" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=239&k=2752" target="blank_"><button class="btn1">Birinci dereceden bir bilinmeyenli denklemler</button></a>
+                        <a id="btn1ders4" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=239&k=2753" target="blank_"><button class="btn1">Mutlak değer</button></a>
+                        <a id="btn1ders5" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=239&k=2754" target="blank_"><button class="btn1">Birinci dereceden iki bilinmeyenli denklemler</button></a>
+                        <a id="btn1ders6" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=239&k=2755" target="blank_"><button class="btn1">Üslü ifadeler</button></a>
+                        <a id="btn1ders7" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=239&k=2756" target="blank_"><button class="btn1">Köklü ifadeler</button></a>
+                        <a id="btn1ders8" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=239&k=2757" target="blank_"><button class="btn1">Oran ve orantı</button></a>
+                        <a id="btn1ders9" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=239&k=2758" target="blank_"><button class="btn1">Denklemler ve eşitsizliklerle ilgili problemler</button></a>
+                    </div>
+                </div>
+                <div class="btnucgenler" id="ucgenler">
+                    <div>
+                        <a id="btn1ders1" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=240&k=2762" target="blank_"><button class="btn1">Üçgende açı</button></a>
+                        <a id="btn1ders2" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=240&k=2763" target="blank_"><button class="btn1">Üçgende açı kenar bağlantıları</button></a>
+                        <a id="btn1ders3" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=240&k=2765" target="blank_"><button class="btn1">Üçgenin iç ve dış açıortayları</button></a>
+                        <a id="btn1ders4" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=240&k=2766" target="blank_"><button class="btn1">Üçgenin kenarortayı ve yüksekliği</button></a>
+                        <a id="btn1ders5" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=240&k=2768" target="blank_"><button class="btn1">Üçgenlerde eşlik ve benzerlik</button></a>
+                        <a id="btn1ders6" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=240&k=2770" target="blank_"><button class="btn1">Temel orantı ve Thales teoremleri</button></a>
+                        <a id="btn1ders7" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=240&k=2772" target="blank_"><button class="btn1">Pisagor ve Öklid teoremleri</button></a>
+                        <a id="btn1ders8" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=240&k=2774" target="blank_"><button class="btn1">Dik üçgenlerde trigonometrik oranlar</button></a>
+                        <a id="btn1ders9" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=240&k=2775" target="blank_"><button class="btn1">Üçgenin alanı</button></a>
+                    </div>
+                </div>
+                <div class="btnveri" id="veri">
+                    <div>
+                        <a id="btn2ders1" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=241&k=2778" target="blank_"><button class="btn1">Merkezi eğilim ve yayılım ölçüleri</button></a>
+                        <a id="btn2ders2" href="https://ogmmateryal.eba.gov.tr/ders-sunu?kod=matematik&s=6&d=48&u=241&k=2779" target="blank_"><button class="btn1">Verilerin grafikle gösterilmesi</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/konular.js"></script>
+</body>
+</html>
