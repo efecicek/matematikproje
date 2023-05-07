@@ -21,8 +21,6 @@ if(soru === 1) {
     if(answer1 == answer) {
         alert("Aferin! Cevabın doğru.")
         soru += 1;
-    }   else {
-        alert("Cevabın yanlış. Tekrar dene.")
     }
 }
 
