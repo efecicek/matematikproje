@@ -192,6 +192,15 @@
     background: rgba(226, 113, 6, 0.6);
 }
 
+.box p{
+    font-size: 35px;
+    width: 900px;
+}
+
+#harezmi, #omerhayyam, #cahitarf, #alikuscu{
+    display: none;
+}
+
 .menu-content p{
     line-height: 1.7rem;
     font-size: 20px;
@@ -255,25 +264,10 @@
     cursor: pointer;
 }
 
-.btnmantik{
+.btnmantik, .btnkume, .btndenklemler, .btnucgenler, .btnveri{
     display: none;
 }
 
-.btnkume{
-    display: none;
-}
-
-.btndenklemler{
-    display: none;
-}
-
-.btnucgenler{
-    display: none;
-}
-
-.btnveri{
-    display: none;
-}
 
 /*3 konuluk dersler için*/
 
