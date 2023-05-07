@@ -14,54 +14,95 @@
                 <li><a href="matematik.html">Anasayfa</a></li>
                 <li><a href="matematiktarihi.html">Matematik Tarihi</a></li>
                 <li><a href="matematiktesti.html">Matematik Testi</a></li>
+                <li><a href="matematikkonu.html">Matematik Konuları</a></li>
             </ul>
         </div>
-        <div class="quiz-container" id="quiz">
-            <div class="quiz-card">
-
-                <div class="menu-header">
-                    <h2>Matematik Testi</h2>
-                </div>
-                <div class="menu-content">
-                    <p>
-                        Matematik konularını ne kadar biliyorum testine hoşgeldiniz.
-                        Bu testin sonucu size 9.sınıf konularında ne kadar iyi olduğunuzu gösterecek ve bildiklerinizi pekiştireceksiniz.
+        <div class="menu-container">
+            <div class="game-card">
+                <div class="oyun">
+                    <div class="centerdiv">
+                        <div class="insertBox">
+                            <div class="box1">
+                                <input type="text" id="v1" readonly>
+                            </div>
+                            <div class="box1">
+                                <p>+</p>
+                            </div>
+                            <div class="box1">
+                                <input type="text" id="v2" readonly>
+                            </div>
+                            <div class="box1">
+                                <p>=</p>
+                            </div>
+                            <div class="box1">
+                                <input type="text" id="v3" readonly>
+                            </div>
+                        </div>
                         <br>
-                        Başarılar!
-                    </p>
+                        <div class="insertBox">
+                            <div class="box1">
+                                <input type="text" id="v4" readonly>
+                            </div>
+                            <div class="box1">
+                                <p>+</p>
+                            </div>
+                            <div class="box1">
+                                <input type="text" id="v5" readonly>
+                            </div>
+                            <div class="box1">
+                                <p>=</p>
+                            </div>
+                            <div class="box1">
+                                <input type="text" id="v6" readonly>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="insertBox">
+                            <div class="box1">
+                                <input type="text" id="v7" readonly>
+                            </div>
+                            <div class="box1">
+                                <p>+</p>
+                            </div>
+                            <div class="box1">
+                                <input type="text" id="v8" readonly>
+                            </div>
+                            <div class="box1">
+                                <p>=</p>
+                            </div>
+                            <div class="box1">
+                                <input type="text" id="v9" readonly>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="insertBox">
+                            <div class="box1">
+                                <input type="text" id="v10" readonly>
+                            </div>
+                            <div class="box1">
+                                <p>+</p>
+                            </div>
+                            <div class="box1">
+                                <input type="text" id="v11" readonly>
+                            </div>
+                            <div class="box1">
+                                <p>=</p>
+                            </div>
+                            <div class="box1">
+                                <input type="text" id="v12" readonly>
+                            </div>
+                        </div>
+                        <div class="middleBox">
+                            <input type="text" id="answer">
+                        </div>
+                        <div class="sentBox">
+                            <button onclick="matematikOyunu()">Check Answer</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="quiz-section">
-                    <div class="quiz-header">
-                        <h2 id="question">Question Text</h2>
-                        <ul>
-                            <li>
-                                <input type="radio" name="answer" id="a" class="answer">
-                                <label for="a" id="a_text">Answer</label>
-                            </li>
-
-                            <li>
-                                <input type="radio" name="answer" id="b" class="answer">
-                                <label for="b" id="b_text">Answer</label>
-                            </li>
-
-                            <li>
-                                <input type="radio" name="answer" id="c" class="answer">
-                                <label for="c" id="c_text">Answer</label>
-                            </li>
-
-                            <li>
-                                <input type="radio" name="answer" id="d" class="answer">
-                                <label for="d" id="d_text">Answer</label>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="button">
-                        <button id="submit">İleri</button>
-                    </div>
-                </div>    
             </div>
         </div>
     </div>
-    <script src="js/matematik.js"></script>
+    <script src="js/oyun.js"></script>
 </body>
 </html>
