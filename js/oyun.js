@@ -33,13 +33,15 @@ if(soru === 1) {
     document.getElementById('v10').value = 7
     document.getElementById('v11').value = 3
     document.getElementById('v12').value = "?"
-    let answer1 = 440
+    let answer1 = 410
     if(answer1 == answer) {
         alert("Aferin! Cevabın doğru.")
         soru += 1
         answer = 0
+        document.getElementById('answer').value = ""
     }   else {
         alert("Cevabın yanlış. Tekrar dene.")
+        document.getElementById('answer').value = ""
     }
 }
 
@@ -61,8 +63,10 @@ if(soru === 2) {
         alert("Aferin! Cevabın doğru.")
         soru += 1
         answer = 0
+        document.getElementById('answer').value = ""
     }   else if(answer != 0){
         alert("Cevabın yanlış. Tekrar dene.")
+        document.getElementById('answer').value = ""
     }
 }
 
@@ -84,8 +88,10 @@ if(soru === 3) {
         alert("Aferin! Cevabın doğru.")
         soru += 1
         answer = 0
+        document.getElementById('answer').value = ""
     }   else if(answer != 0){
         alert("Cevabın yanlış. Tekrar dene.")
+        document.getElementById('answer').value = ""
     }
 }
 
@@ -109,6 +115,7 @@ if(soru === 4) {
         alert("Test bitti.")
     }   else if(answer != 0){
         alert("Cevabın yanlış. Tekrar dene.")
+        document.getElementById('answer').value = ""
     }
 }
 }
